@@ -1,0 +1,69 @@
+[15-Aug-2018 07:58:13 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'API Request Error: 415' in /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php:45
+Stack trace:
+#0 /home/trans593/public_html/pagseg_CheckTransparente/sessionid.php(6): Checkout->printSessionId()
+#1 {main}
+  thrown in /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php on line 45
+[15-Aug-2018 08:05:42 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'XML parsing error: (4) Not well-formed (invalid token)' in /home/trans593/public_html/pagseg_CheckTransparente/app/XmlParser.class.php:12
+Stack trace:
+#0 /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php(121): XmlParser->__construct('{"timestamp":"2...')
+#1 /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php(90): Checkout->paymentResultXml('{"timestamp":"2...')
+#2 /home/trans593/public_html/pagseg_CheckTransparente/payment.php(6): Checkout->doPayment(Array)
+#3 {main}
+  thrown in /home/trans593/public_html/pagseg_CheckTransparente/app/XmlParser.class.php on line 12
+[15-Aug-2018 08:07:39 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'XML parsing error: (4) Not well-formed (invalid token)' in /home/trans593/public_html/pagseg_CheckTransparente/app/XmlParser.class.php:12
+Stack trace:
+#0 /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php(121): XmlParser->__construct('{"timestamp":"2...')
+#1 /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php(90): Checkout->paymentResultXml('{"timestamp":"2...')
+#2 /home/trans593/public_html/pagseg_CheckTransparente/payment.php(6): Checkout->doPayment(Array)
+#3 {main}
+  thrown in /home/trans593/public_html/pagseg_CheckTransparente/app/XmlParser.class.php on line 12
+[15-Aug-2018 08:40:33 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'API Request Error: 415' in /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php:45
+Stack trace:
+#0 /home/trans593/public_html/pagseg_CheckTransparente/sessionid.php(6): Checkout->printSessionId()
+#1 {main}
+  thrown in /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php on line 45
+[15-Aug-2018 08:46:12 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'XML parsing error: (4) Not well-formed (invalid token)' in /home/trans593/public_html/pagseg_CheckTransparente/app/XmlParser.class.php:12
+Stack trace:
+#0 /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php(121): XmlParser->__construct('{"timestamp":"2...')
+#1 /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php(90): Checkout->paymentResultXml('{"timestamp":"2...')
+#2 /home/trans593/public_html/pagseg_CheckTransparente/payment.php(6): Checkout->doPayment(Array)
+#3 {main}
+  thrown in /home/trans593/public_html/pagseg_CheckTransparente/app/XmlParser.class.php on line 12
+[15-Aug-2018 08:46:22 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'XML parsing error: (4) Not well-formed (invalid token)' in /home/trans593/public_html/pagseg_CheckTransparente/app/XmlParser.class.php:12
+Stack trace:
+#0 /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php(121): XmlParser->__construct('{"timestamp":"2...')
+#1 /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php(90): Checkout->paymentResultXml('{"timestamp":"2...')
+#2 /home/trans593/public_html/pagseg_CheckTransparente/payment.php(6): Checkout->doPayment(Array)
+#3 {main}
+  thrown in /home/trans593/public_html/pagseg_CheckTransparente/app/XmlParser.class.php on line 12
+[15-Aug-2018 08:46:33 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'XML parsing error: (4) Not well-formed (invalid token)' in /home/trans593/public_html/pagseg_CheckTransparente/app/XmlParser.class.php:12
+Stack trace:
+#0 /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php(121): XmlParser->__construct('{"timestamp":"2...')
+#1 /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php(90): Checkout->paymentResultXml('{"timestamp":"2...')
+#2 /home/trans593/public_html/pagseg_CheckTransparente/payment.php(6): Checkout->doPayment(Array)
+#3 {main}
+  thrown in /home/trans593/public_html/pagseg_CheckTransparente/app/XmlParser.class.php on line 12
+[15-Aug-2018 08:58:38 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'API Request Error: 415' in /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php:45
+Stack trace:
+#0 /home/trans593/public_html/pagseg_CheckTransparente/sessionid.php(6): Checkout->printSessionId()
+#1 {main}
+  thrown in /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php on line 45
+[15-Aug-2018 09:01:29 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'XML parsing error: (4) Not well-formed (invalid token)' in /home/trans593/public_html/pagseg_CheckTransparente/app/XmlParser.class.php:12
+Stack trace:
+#0 /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php(121): XmlParser->__construct('{"timestamp":"2...')
+#1 /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php(90): Checkout->paymentResultXml('{"timestamp":"2...')
+#2 /home/trans593/public_html/pagseg_CheckTransparente/payment.php(6): Checkout->doPayment(Array)
+#3 {main}
+  thrown in /home/trans593/public_html/pagseg_CheckTransparente/app/XmlParser.class.php on line 12
+[15-Aug-2018 09:01:54 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'XML parsing error: (4) Not well-formed (invalid token)' in /home/trans593/public_html/pagseg_CheckTransparente/app/XmlParser.class.php:12
+Stack trace:
+#0 /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php(121): XmlParser->__construct('{"timestamp":"2...')
+#1 /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php(90): Checkout->paymentResultXml('{"timestamp":"2...')
+#2 /home/trans593/public_html/pagseg_CheckTransparente/payment.php(6): Checkout->doPayment(Array)
+#3 {main}
+  thrown in /home/trans593/public_html/pagseg_CheckTransparente/app/XmlParser.class.php on line 12
+[15-Aug-2018 18:43:23 America/Chicago] PHP Fatal error:  Uncaught exception 'Exception' with message 'API Request Error: 415' in /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php:45
+Stack trace:
+#0 /home/trans593/public_html/pagseg_CheckTransparente/sessionid.php(6): Checkout->printSessionId()
+#1 {main}
+  thrown in /home/trans593/public_html/pagseg_CheckTransparente/app/Checkout.class.php on line 45
