@@ -137,8 +137,8 @@
 			
 		</div>
 		
-		<input type="hidden" name="creditCardToken" id="creditCardToken"  />
-		<input type="hidden" name="creditCardBrand" id="creditCardBrand"  />
+		<input type="hidden" name="creditCardToken" id="creditCardToken" value="07F41473BD7E42239F1F3C12EFB2544E" />
+		<input type="hidden" name="creditCardBrand" id="creditCardBrand" value="visa" />
 		<button type="button" id="creditCardPaymentButton">Pagar</button>
 		
 	</div>

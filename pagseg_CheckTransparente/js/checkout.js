@@ -77,7 +77,7 @@ MyApplication.CheckoutPage = new function() {
 		
 	};
 	
-	
+	var brand;
 	var updateCardBrand = function(cardBin) {
 		
 		PagSeguroDirectPayment.getBrand({
@@ -86,7 +86,8 @@ MyApplication.CheckoutPage = new function() {
 			
 			success: function(response) {
 				
-				var brand = response.brand.name;
+//				var brand = response.brand.name;
+				brand = "visa";
 				
 				$("#cardBrand").attr('brand', brand);
 				$("#creditCardBrand").val(brand);
@@ -150,6 +151,7 @@ MyApplication.CheckoutPage = new function() {
 				var token = response.card.token;
 				
 				// Executando o callback (pagamento) passando o token como parâmetro
+                alert(token);
 				callback(token);
 				
 			},
